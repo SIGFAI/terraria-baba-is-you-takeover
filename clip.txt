@@ -1,0 +1,6 @@
+Moments the clip must show, in order:
+[x] 1. The player is drawn as a white Baba, the rule board "BABA IS YOU / SLIME IS BABA / ZOMBIE IS HOT" floats in the sky, and a shower of Babas lands.
+[x] 2. Slimes turn into Babas with a poof; allied Babas fight burning zombies.
+[x] 3. An arrow hits the YOU block and it becomes WIN; the rule bar changes, touching a Baba pays out "YOU WIN!" coins.
+[x] 4. ZOMBIE IS FLOAT lifts zombies into the air; the Rule Wand shoots IS blocks that turn a zombie into a Baba ("ZOMBIE IS BABA!").
+Weak: the Baba allies look a lot like the vanilla bunnies at a distance.
