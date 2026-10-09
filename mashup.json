@@ -1,0 +1,80 @@
+{
+  "id": "sigf/terraria-baba-is-you-takeover",
+  "version": "1.0.0",
+  "name": "Baba Is You Takeover",
+  "tagline": "Bring Baba Is You into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "terraria",
+      "role": "host",
+      "engine": "Terraria 1.4.4 + tModLoader (C#, .NET 8)",
+      "apps": {
+        "steam": "1281930"
+      }
+    },
+    {
+      "game": "babaisyou",
+      "role": "guest",
+      "label": "Baba Is You"
+    }
+  ],
+  "requires": [
+    {
+      "id": "tmodloader"
+    }
+  ],
+  "install": [
+    {
+      "game": "terraria",
+      "strategy": "game-dir-snapshot",
+      "files": [
+        {
+          "src": "terraria-baba-is-you-takeover.zip",
+          "dst": "{docs}/My Games/Terraria/tModLoader/Mods",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "Sigf.tmod",
+              "sha256": "e1bef13b350215b448d9418a5da510e856649cbdff59e4fba291358677cd597c"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/terraria-baba-is-you-takeover/releases/download/v1.0.0/terraria-baba-is-you-takeover.zip",
+          "sha256": "fe6080c233c540ef9d0e595d7e639f9d43ca210157382de81ed5abcf25dc1bd4",
+          "size": 39111
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "terraria",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "terraria-baba-is-you-takeover.zip",
+      "url": "https://github.com/SIGFAI/terraria-baba-is-you-takeover/releases/download/v1.0.0/terraria-baba-is-you-takeover.zip",
+      "sha256": "fe6080c233c540ef9d0e595d7e639f9d43ca210157382de81ed5abcf25dc1bd4",
+      "size": 39111
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/terraria-baba-is-you-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-09-c92ddd98.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "terraria",
+    "status": "draft"
+  },
+  "built_at": "2026-10-09T21:10:31.576Z"
+}
